@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+.header{
+    background: #c69b00;
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+.textoHeader{
+    text-align: left;
+    grid-column: span 12;
+}
+
+.textoHeader h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 0;
+
+}
+
+.textoHeader h3{
+    font-weight: 500;
+    color: #263547;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+
+.infoSecundaria{
+    background: #263547;
+    grid-column: span 4;
+    
+}
+
+
+
+.infoSecundaria{
+    padding-top:20px;
+    padding-left: 30px;   
+}
+
+.contenedorInfo{
+    grid-column: 1/-1;
+    height: 100%;
+}
+
+.contenedorInfo h4{
+    color: rgb(228, 139, 57);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.contenedorInfo h6{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: aliceblue;
+
+}
+
+.contenedorInfo ul{
+    color: rgb(208, 210, 211);
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.contenedorInfo li{
+    color: rgb(208, 210, 211);
+    font-size: 12px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    
+}
+.contenedorInfo ul li strong{
+    font-size: 15px;
+}
+.contenedorInfo a{
+    text-decoration: none;
+    color: #c69b00;
+    font-size: 12px;
+
+}
+
+.infoPrincipal{
+    grid-column: 5/13;
+    padding: 10px;
+}
+
+.contenidoPrincipal{
+    grid-column: 1/-1;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.contenidoPrincipal h4{
+    color: #263547;
+    text-transform: uppercase;
+}
+
+.contenidoPrincipal p{
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+
+.contenidoPrincipal ul li strong{
+    font-size: 15px;
+}
+
+
+.contenidoPrincipal ul{
+    color: #263547;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.contenidoPrincipal li{
+    color: #263547;
+    font-size: 12px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    
+}
+
+ul li .empresa {
+    font-weight:700 ;
+    font-size: 15px;
+}
+
+ul li .fecha{
+    color: #40464d;
+    font-size: 15px;
+}
+
+ul li .rol{
+    color: #263547;
+    font-weight: 500;
+}
+
+ul li .carrera{
+    color: #263547;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+ul li .institucionAnnio{
+    color:#263547;
+    font-size: 17;
+    font-weight: 600;
+}
+
+hr{
+    background: #c69b00;
+    color: #c69b00;
+}
